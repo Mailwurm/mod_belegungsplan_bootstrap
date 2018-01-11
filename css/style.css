@@ -1,0 +1,51 @@
+tr.belegCategory {
+    background-color:#CCC;
+}
+.modal.modal-wide .modal-dialog {
+    width:90%;
+}
+.modal-wide .modal-body {
+    overflow-y: auto;
+}
+.table.belegungsplan-modal-table>thead>tr>th.saturday,
+.table.belegungsplan-modal-table>thead>tr>th.sunday {
+    background-color:#CCC;
+}
+table.belegungsplan-modal-table>thead>tr>th {
+    text-align:center;
+}
+table.belegungsplan-modal-table>thead>tr>th.holiday {
+    background-color:#5bc0de;
+    border-color:#46b8da;
+    cursor: pointer;
+}
+table.belegungsplan-table {
+    cursor: pointer;
+}
+div.mod_belegungsplan .thumbnail {
+    margin-right:20px;
+}
+.table.belegungsplan-modal-table>tbody>tr>td.danger {
+    border-right:none;
+    border-left:none;
+}
+.table.belegungsplan-table>tbody>tr>td.anreise,
+.table.belegungsplan-modal-table>tbody>tr>td.anreise {
+    border-right:none;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4cae4c+0,4cae4c+50,d43f3a+50,d43f3a+100 */
+    background: #4cae4c; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #4cae4c 0%, #4cae4c 50%, #d43f3a 50%, #d43f3a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #4cae4c 0%,#4cae4c 50%,#d43f3a 50%,#d43f3a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #4cae4c 0%,#4cae4c 50%,#d43f3a 50%,#d43f3a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4cae4c', endColorstr='#d43f3a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.table.belegungsplan-table>tbody>tr>td.abreise,
+.table.belegungsplan-modal-table>tbody>tr>td.abreise {
+    border-left:none;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d43f3a+0,d43f3a+50,4cae4c+50,4cae4c+100 */
+    background: #d43f3a; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #d43f3a 0%, #d43f3a 50%, #4cae4c 50%, #4cae4c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #d43f3a 0%,#d43f3a 50%,#4cae4c 50%,#4cae4c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #d43f3a 0%,#d43f3a 50%,#4cae4c 50%,#4cae4c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d43f3a', endColorstr='#4cae4c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
