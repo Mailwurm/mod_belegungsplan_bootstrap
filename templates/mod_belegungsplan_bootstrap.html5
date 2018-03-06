@@ -72,7 +72,7 @@
 										<table class="table table-bordered belegungsplan-modal-table">
 											<thead>
 												<tr>
-													<td></td>
+													<td><button class="btn btn-sm btn-success">Frei</button>&nbsp;<button class="btn btn-sm btn-danger">Belegt</button></td>
 													<?php foreach($month['Days'] as $dayMonth => $day): ?>
 														<th<?php if($day['Class']): ?> class="<?= $day['Class'] ?>"<?php endif; ?><?php if($day['Holiday']): ?> title="<?= $day['Holiday'] ?>"<?php endif; ?>><?= (strlen($dayMonth) === 1 ? '0'.$dayMonth : $dayMonth) . '<br>' . $day['DayCut'] ?></th>
 													<?php endforeach; ?>
